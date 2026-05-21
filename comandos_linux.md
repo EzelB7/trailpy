@@ -72,6 +72,31 @@ mv
 
 - mv archivo.txt nuevonombre.txt
 
+### 9. cat 
+``` bash
+cat
+```
+- Sirve para mostrar el contenido de un archivo, ejemplo:
+cat archivo.txt
+
+### 10. less
+``` bash
+less 
+```
+- Sirve para leer archivos largos, ejemplo:
+less archivo.txt
+
+## Busqueda 
+``` bash
+find
+```
+- find ruta opciones
+ejemplo 
+```bash
+find . -name "archivo.txt"
+```
+
+
 
 
 
