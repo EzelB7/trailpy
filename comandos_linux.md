@@ -103,20 +103,20 @@ find . -name "archivo.txt"
 find .
 ```
 
-### "find . -name "main.java" " 
+### 1. "find . -name "main.java" " 
 - con el "-name" busca por el nombre exacto 
 
 ```bash 
 find . -name "archivo.txt" 
 ```
-### find . -iname "README.md" 
+### 2. find . -iname "README.md" 
 - el -iname ignora las mayusculas 
 
 ```bash 
 find . -iname "README.md" 
 ```
 
-### find con * comodin
+### 3. find con * comodin
 ```bash
 find . -name "*.java" 
 ```
@@ -127,7 +127,7 @@ find . -name "*.md"
 ```
 - busca todos los .md
 
-### find con filtrado por tipo
+### 4. find con filtrado por tipo
 ```bash 
 find . -type f 
 ```
@@ -139,18 +139,29 @@ find . -type f -name "*.txt"
 ```
 - Esto busca todo los archivos .txt 
 
-### find con limite de profundidad 
+### 5. find con limite de profundidad 
 
 ``` bash
 find . -maxdepth 1 
 ```
 - Solo busca en la carpeta actual "1" 
 
-### find por tamano 
+### 6. find por tamano 
 ``` bash
 find . -size +100M 
 ```
 - mas de 100 MB
+
+### 7. find para directorios vacios 
+```bash
+find . -type d -empty
+```
+
+### 8. find para eliminar 
+``` bash
+find [directorio] -name "*.txt" -delete
+```
+- esto elimina todos los .txt del directorio que coloques
 
 
 
