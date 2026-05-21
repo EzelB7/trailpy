@@ -90,7 +90,7 @@ less archivo.txt
 ``` bash
 find
 ```
-### find ruta opciones
+### find [ruta] [opciones]
 
 - ejemplo 
 ```bash
@@ -113,7 +113,7 @@ find . -name "archivo.txt"
 find . -iname "README.md" 
 ```
 
-### * comodin
+### find con * comodin
 ```bash
 find . -name "*.java" 
 ```
