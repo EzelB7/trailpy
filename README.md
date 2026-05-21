@@ -10,7 +10,7 @@ Proyecto personal para aprender:
 ## Comandos Git
 
 ### Inicializar repositorio
-
+### 1
 ```bash
 git init
 ```
