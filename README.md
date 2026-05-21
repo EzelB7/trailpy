@@ -25,15 +25,17 @@ cuando tenemos por ejemplo un
 Main.java 
 y luego hacemos git add.
 quiere decir que ese o esos archivos quiero incluir, 
-el punto significa, todo lo que hay en la carpeta
+el punto significa, todo lo que hay en la carpeta.
 
 
-3- "git commit" 
+```bash
+git commit 
+```
 esto guarda una version del proyecto, el " -m " significa mensaje 
 por ejemplo 
 git commit -m "cambio aplicado" ->>>> guarda esta version y describela asi
 - un commit es una version guardada o checkpoint!
-
+ 
 4- "git remote add origin URL"
 conecta tu proyecto local con github
 origin = nombre del repositorio remoto
