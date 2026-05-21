@@ -14,11 +14,12 @@ Proyecto personal para aprender:
 ```bash
 git init
 ```
-1-"git init"
 Sirve para convertir una carpeta normal en un proyecto GIT 
 y va aparecer una carpetita .git , donde se guardan historial, commits, ramas y cambios!
 
-2- "git add"
+```bash
+git add
+```
 Sirve para settear o preparar archivos para guardarlos, los coloca como en un carrito
 cuando tenemos por ejemplo un 
 Main.java 
