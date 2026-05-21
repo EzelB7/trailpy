@@ -89,6 +89,10 @@ la rama principal normalmente se llama
 main 
 ```
 
+## Clonar proyecto 
+``` bash
+git clone URL
+```
 
 ### Flujo de trabajo tradicional
 - git status
