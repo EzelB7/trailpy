@@ -25,16 +25,17 @@ Sirve para cambiar de carpeta o directorio
 touch 
 ```
 Touch sirve para crear un tipo de archivo con una extension definida
-por el programador
+por el programador, touch archivo.txt
 
-
+### 5. mkdir 
 ```bash
-5- mkdir carpeta
+mkdir 
 ```
-Sirve para crear una carpeta/directorio
+Sirve para crear una carpeta/directorio, mkdir carpeta_nombre 
 
+### 6. rm 
 ```bash 
-6- rm archivo
+rm 
 ```
-Sirve para eliminar un archivo 
+Sirve para eliminar un archivo, rm archivo.txt 
 
