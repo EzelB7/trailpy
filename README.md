@@ -82,6 +82,14 @@ renombra la rama actual a main
 ```
 con esto forzamos la union de proyectos que parecen distintos!
 
+## Branches 
+Una branch es una linea de desarrollo independiente
+la rama principal normalmente se llama 
+``` bash 
+main 
+```
+
+
 ### Flujo de trabajo tradicional
 - git status
 - git add .
