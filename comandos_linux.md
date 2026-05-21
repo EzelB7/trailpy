@@ -58,3 +58,19 @@ rm -r
 ```
 eliminacion recursiva, sirve para borrar carpetas
 
+### 7. cp 
+```bash
+cp 
+```
+sirve para copiar archivos, cp archivo.txt copia.txt 
+
+### 8. mv 
+``` bash
+mv
+```
+Sirve para mover o renombrar mv archivoamover.txt rutanueva
+mv archivo.txt nuevonombre.txt
+
+
+
+
