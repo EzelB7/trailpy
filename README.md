@@ -1,5 +1,19 @@
-Archivo destinado para documentar avances sobre funcionalidades varias!
+# TrailPy
 
+Proyecto personal para aprender:
+- Git
+- GitHub
+- Java
+- Linux
+- desarrollo backend
+
+## Comandos Git
+
+### Inicializar repositorio
+
+```bash
+git init
+```
 1-"git init"
 Sirve para convertir una carpeta normal en un proyecto GIT 
 y va aparecer una carpetita .git , donde se guardan historial, commits, ramas y cambios!
