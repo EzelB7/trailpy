@@ -139,9 +139,18 @@ find . -type f -name "*.txt"
 ```
 - Esto busca todo los archivos .txt 
 
+### find con limite de profundidad 
 
+``` bash
+find . -maxdepth 1 
+```
+- Solo busca en la carpeta actual "1" 
 
-
+### find por tamano 
+``` bash
+find . -size +100M 
+```
+- mas de 100 MB
 
 
 
