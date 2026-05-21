@@ -10,9 +10,8 @@ Proyecto personal para aprender:
 ## Comandos Git
 
 ### Inicializar repositorio
-### 1
 ```bash
-git init
+1- git init
 ```
 Sirve para convertir una carpeta normal en un proyecto GIT 
 y va aparecer una carpetita .git , donde se guardan historial, commits, ramas y cambios!
