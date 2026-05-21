@@ -68,9 +68,9 @@ sirve para copiar archivos, cp archivo.txt copia.txt
 ``` bash
 mv
 ```
--Sirve para mover o renombrar mv archivoamover.txt rutanueva
+- Sirve para mover o renombrar mv archivoamover.txt rutanueva
 
--mv archivo.txt nuevonombre.txt
+- mv archivo.txt nuevonombre.txt
 
 
 
