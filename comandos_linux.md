@@ -90,11 +90,45 @@ less archivo.txt
 ``` bash
 find
 ```
-- find ruta opciones
-ejemplo 
+### find ruta opciones
+
+- ejemplo 
 ```bash
 find . -name "archivo.txt"
 ```
+
+### "find ." busca en el directorio o carpeta actual 
+```bash
+find .
+```
+
+### "find . -name "main.java" " con el "-name" busca por el nombre exacto 
+
+```bash 
+find . -name "archivo.txt" 
+```
+### find . -iname "README.md" ignora las mayusculas 
+
+```bash 
+find . -iname "README.md" 
+```
+
+### * comodin
+```bash
+find . -name "*.java" 
+```
+- busca todos los .java 
+
+```bash
+find . -name "*.md"
+```
+- busca todos los .md
+
+
+
+
+
+
 
 
 
