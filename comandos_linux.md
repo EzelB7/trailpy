@@ -1,26 +1,32 @@
 # Comandos linux
 
 ## Navegacion 
+
+### 1. pwd
 ``` bash
-1- pwd
+pwd
 ```
 muestra ubicacion actual / directorio actual 
 
+### 2. ls 
 ``` bash
-2- ls 
+ls
 ```
 Lista archivos 
 
+### 3. cd 
 ```bash
-3- cd carpeta 
+cd  
 ```
 Sirve para cambiar de carpeta o directorio
 
-```bash
-4- touch archivo.txt
+### 4. touch 
+```bash 
+touch 
 ```
 Touch sirve para crear un tipo de archivo con una extension definida
 por el programador
+
 
 ```bash
 5- mkdir carpeta
