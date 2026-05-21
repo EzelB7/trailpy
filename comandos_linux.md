@@ -97,17 +97,20 @@ find
 find . -name "archivo.txt"
 ```
 
-### "find ." busca en el directorio o carpeta actual 
+### "find ." 
+- busca en el directorio o carpeta actual 
 ```bash
 find .
 ```
 
-### "find . -name "main.java" " con el "-name" busca por el nombre exacto 
+### "find . -name "main.java" " 
+- con el "-name" busca por el nombre exacto 
 
 ```bash 
 find . -name "archivo.txt" 
 ```
-### find . -iname "README.md" ignora las mayusculas 
+### find . -iname "README.md" 
+- el -iname ignora las mayusculas 
 
 ```bash 
 find . -iname "README.md" 
@@ -123,6 +126,25 @@ find . -name "*.java"
 find . -name "*.md"
 ```
 - busca todos los .md
+
+### find con filtrado por tipo
+```bash 
+find . -type f 
+```
+- f= file/archivo , d = directory/directorio
+- ejemplo con -type y -name 
+
+``` bash 
+find . -type f -name "*.txt"
+```
+- Esto busca todo los archivos .txt 
+
+
+
+
+
+
+
 
 
 
