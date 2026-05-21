@@ -1,4 +1,5 @@
 Archivo destinado para documentar avances sobre funcionalidades varias!
+
 1-"git init"
 Sirve para convertir una carpeta normal en un proyecto GIT 
 y va aparecer una carpetita .git , donde se guardan historial, commits, ramas y cambios!
