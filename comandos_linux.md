@@ -350,10 +350,54 @@ grep -e "java" -e "python" archivo.txt
 ```
 - busca "java" y "python" y n cosas mas a medida que agregamos el " -e "
 
-## grep con regex 
+## grep con regex inicio  
 ``` bash
 grep "^import" Main.java
 ```
 - Las lineas que comienzan con import va mostrar, se utiliza el " ^ "
+
+## grep con regex final
+```bash 
+grep "txt$" archivo.txt 
+```
+- todo lo que termine con txt 
+
+## grep con comodin
+``` bash
+grep "h.la" archivo.txt
+```
+- El " . " punto se usa como comodin para autocompletar cualquier cosa
+- hola, h0la, hila, etc.
+
+
+## grep con comodin
+``` bash
+grep "h.la" archivo.txt
+```
+- El " . " punto se usa como comodin para autocompletar cualquier cosa
+- hola, h0la, hila, etc.
+
+## grep con conjunto de caracteres
+``` bash 
+grep "[aeiou]" archivo.txt 
+```
+- Cualquiera de estos caracteres quiere decir el " [] "
+- Tambien sirve para numeros grep "[0-9]", establece un rango o de letras "[a-z]"
+
+## grep para repeticiones
+```bash 
+grep "lo*" archivo.txt
+```
+- l + muchas "o", ejemplo l, lo, loo, looo, loooo, etc.
+
+## Nota regex
+- " . " = cualquier caracteres
+- " * " = repetir lo anterior 
+
+
+
+
+
+
 
 
