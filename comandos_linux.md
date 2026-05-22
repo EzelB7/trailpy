@@ -245,6 +245,12 @@ ls | grep "md"
 ```
 - Esto muestra solo archivos con .md 
 
+## grep y numero de linea
+- El "-n" indica en que numero de linea se encuentra lo que estamos  buscando
+``` bash 
+grep -n "main" Main.java 
+```
+
 
 
 
