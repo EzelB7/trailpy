@@ -324,9 +324,31 @@ grep -E "java|python" archivo.txt
 grep --color "error" logs.txt 
 ```
 - Colorea donde encuentre "error"
+- se usan dos -- 
 
+## grep mostrar n lineas despues de "busqueda"
+``` bash 
+grep -A 3 "error" logs.txt
+```
+- Encuentra "error" y va 3 lineas despues de eso 
 
+## grep mostrar n lineas antes de "busqueda"
+``` bash
+grep -B 2 "error" logs.txt 
+```
+- Encuentra el "error" y muestra 2 lineas antes 
 
+## grep con n lineas delante y atras de "busqueda"
+``` bash
+grep -C 2 "error" logs.txt 
+```
+- Muestra 2 lineas antes y despues de encontrar "error"
+
+## grep con multiples patrones 
+```bash 
+grep -e "java" -e "python" archivo.txt 
+```
+- busca "java" y "python" y n cosas mas a medida que agregamos el " -e "
 
 
 
