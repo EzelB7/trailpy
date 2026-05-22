@@ -18,7 +18,14 @@ ls
 ```bash 
 ls -la 
 ```
-- lista archivos ocultos tambien
+- lista archivos ocultos
+
+### 2.2 ls -l 
+
+``` bash
+ls -l 
+```
+- ver permisos 
 
 ### 3. cd 
 ```bash
@@ -108,6 +115,20 @@ which
 ``` bash
 which nvim 
 ```
+
+## compresion 
+- zip 
+``` bash 
+zip archivo.zip archivo.txt 
+``` 
+
+- unzip
+``` bash 
+unzip archivo.zip
+```
+
+
+
 
 
 ## Busqueda 
@@ -199,8 +220,17 @@ find [directorio] -name "*.txt" -delete
 ls | less 
 ```
 
+### >
+``` bash 
+ls > archivo.txt
+```
+- Guardar la salida en un archivo con el " > "
 
-
+### >> 
+``` bash
+echo "hola ">> notas.txt
+```
+- Agregar sin borrar 
 
 
 
