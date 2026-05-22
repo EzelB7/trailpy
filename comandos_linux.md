@@ -233,7 +233,7 @@ echo "hola ">> notas.txt
 - Agregar sin borrar 
 
 ## grep
-- Sirve para buscar texto dentro de un texto 
+- Sirve para buscar texto dentro de un texto y para combinar con | y filtrar  
 
 ## sintaxis basica
 
@@ -318,6 +318,12 @@ grep -o "linux" archivo.txt
 grep -E "java|python" archivo.txt 
 ```
 - Busca java o python
+
+## grep con color
+``` bash 
+grep --color "error" logs.txt 
+```
+- Colorea donde encuentre "error"
 
 
 
