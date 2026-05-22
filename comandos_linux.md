@@ -188,6 +188,19 @@ find [directorio] -name "*.txt" -delete
 - esto elimina todos los .txt del directorio que coloques
 
 ## Redirecciones y pipes
+``` bash
+| 
+``` 
+- esto es un "pipe" 
+- sirve para conectar comandos 
+- ejemplo:
+
+``` bash
+ls | less 
+```
+
+
+
 
 
 
