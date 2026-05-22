@@ -271,15 +271,53 @@ grep -c "error" logs.txt
 ```
 - Cuenta las coincidencias de error 
 
+## grep busqueda recursiva
+``` bash
+grep -r "todo" 
+```
+- Va buscar "todo" en carpetas, archivos y demas!
 
+## grep invertido 
+```bash 
+grep -v "java" archivo.txt
+```
+- Va mostrar todo quitando "java"
 
+## grep solo nombres de archivos
+``` bash
+grep -l "java" 
+```
+- Muestra solo los nombres de archivos 
 
+## grep recursivo y nombres de archivos
+``` bash
+grep -rl "todo"
+```
+- Va buscar recursivamente el nombre de archivo "todo" 
 
+## grep con palabra exacta
+``` bash 
+grep -w "cat" archivo.txt
+```
+- va encontrar "cat" pero otra cosa como "categoria" no.
 
+## grep linea exacta
+``` bash 
+grep -x "hola" archivo.txt 
+```
+- Debe salir exactamente hola 
 
+## mostrar solo coincidencias
+``` bash 
+grep -o "linux" archivo.txt 
+```
+- Solo va mostrar las coincidencias sin enumerar. 
 
-
-
+## grep regex 
+``` bash
+grep -E "java|python" archivo.txt 
+```
+- Busca java o python
 
 
 
