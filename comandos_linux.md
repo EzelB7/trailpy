@@ -86,6 +86,30 @@ less
 - Sirve para leer archivos largos, ejemplo:
 less archivo.txt
 
+### 11. history
+```bash
+history
+```
+- muestra los comandos anteriores 
+
+
+### 12. !!
+``` bash
+!!
+```
+- repite el ultimo comando utilizado 
+
+### 13. which 
+```bash
+which 
+```
+- te indica donde esta instalado un programa 
+- por ejemplo
+``` bash
+which nvim 
+```
+
+
 ## Busqueda 
 ``` bash
 find
@@ -103,7 +127,7 @@ find . -name "archivo.txt"
 find .
 ```
 
-### 1. "find . -name "main.java" " 
+### 1. "find . -name "main.java" " :
 - con el "-name" busca por el nombre exacto 
 
 ```bash 
@@ -162,6 +186,8 @@ find . -type d -empty
 find [directorio] -name "*.txt" -delete
 ```
 - esto elimina todos los .txt del directorio que coloques
+
+## Redirecciones y pipes
 
 
 
