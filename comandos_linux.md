@@ -234,10 +234,19 @@ echo "hola ">> notas.txt
 
 ## grep
 - Sirve para buscar texto dentro de un texto 
+
+## sintaxis basica
+
+``` bash
+grep [opciones] "text" archivo 
+```
+
 - Ejemplo 
 ``` bash
 grep "hola" archivo.txt
 ```
+
+
 ## grep con ls 
 - Ejemplo
 ```bash
@@ -250,6 +259,21 @@ ls | grep "md"
 ``` bash 
 grep -n "main" Main.java 
 ```
+## grep ignorando mayusculas
+``` bash
+grep -i "linux" archivo.txt 
+```
+- Esto te daria LINUX, linux, Linux y demas
+
+## grep contar coincidencias
+``` bash 
+grep -c "error" logs.txt 
+```
+- Cuenta las coincidencias de error 
+
+
+
+
 
 
 
