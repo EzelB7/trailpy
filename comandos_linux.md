@@ -350,6 +350,10 @@ grep -e "java" -e "python" archivo.txt
 ```
 - busca "java" y "python" y n cosas mas a medida que agregamos el " -e "
 
-
+## grep con regex 
+``` bash
+grep "^import" Main.java
+```
+- Las lineas que comienzan con import va mostrar, se utiliza el " ^ "
 
 
