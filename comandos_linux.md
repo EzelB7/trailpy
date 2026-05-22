@@ -1,4 +1,4 @@
-# Comandos linux
+#Comandos linux
 
 ## Navegacion 
 
@@ -232,6 +232,11 @@ echo "hola ">> notas.txt
 ```
 - Agregar sin borrar 
 
+## grep
+- Sirve para buscar texto dentro de un texto 
+``` bash
+grep "hola" archivo.txt
+```
 
 
 
