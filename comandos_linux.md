@@ -403,6 +403,49 @@ rg "texto"
 ```
 -Busca recursivamente en todos los archivos desde tu directorio actual.
 
+## ignorar mayusculas
+```bash 
+rg -i "texto" 
+```
+
+## numero de linea 
+```bash 
+rg -n "texto"
+```
+## palabra exacta
+```bash 
+rg -w "texto"
+```
+## contar coincidencias
+``` bash
+rg -c "texto"
+```
+## mostrar solo archivos 
+``` bash 
+rg -l "texto"
+```
+## filtrar por tipo archivo
+``` bash 
+rg "class" -g "*.java"
+```
+
+## mostrar ocultos 
+``` bash 
+rg -- hidden "texto"
+```
+## no ignorar
+``` bash 
+rg --no-ignore "texto"
+```
+
+
+
+
+
+
+
+
+
 
 
 
