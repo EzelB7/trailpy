@@ -394,6 +394,15 @@ grep "lo*" archivo.txt
 - " . " = cualquier caracteres
 - " * " = repetir lo anterior 
 
+## RipGrep
+- Es una herramienta moderna para buscar texto como grep.
+
+## Uso basico 
+```bash 
+rg "texto"
+```
+-Busca recursivamente en todos los archivos desde tu directorio actual.
+
 
 
 
