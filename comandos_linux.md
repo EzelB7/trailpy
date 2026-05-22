@@ -234,9 +234,16 @@ echo "hola ">> notas.txt
 
 ## grep
 - Sirve para buscar texto dentro de un texto 
+- Ejemplo 
 ``` bash
 grep "hola" archivo.txt
 ```
+## grep con ls 
+- Ejemplo
+```bash
+ls | grep "md"
+```
+- Esto muestra solo archivos con .md 
 
 
 
